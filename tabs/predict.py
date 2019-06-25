@@ -89,8 +89,7 @@ layout = html.Div([
     ], style=style),
 
     dcc.Markdown('### Prediction'), 
-    html.Div(id='prediction-content'), 
-    html.H1()
+    html.Div(id='prediction-content', style={'marginBottom': '5em'}), 
 
 ])
 
