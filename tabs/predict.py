@@ -107,7 +107,7 @@ def predict(annual_income, credit_score, loan_amount, loan_purpose, monthly_debt
         data=[[annual_income, credit_score, loan_amount, loan_purpose, monthly_debts]]
     )
 
-    pipeline = load('model/pipeline.joblib')
+    pipeline = load('model/xgb_2015_pickle.joblib')
     y_pred_log = pipeline.predict(df)
     y_pred = np.expm1(y_pred_log)[0]
 
