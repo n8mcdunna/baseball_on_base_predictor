@@ -13,7 +13,6 @@ matplotlib = "*"
 category-encoders = "*"
 scikit-learn = "*"
 joblib = "*"
-xgboost = "*"
 dash = "*"
 
 [requires]
