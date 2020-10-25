@@ -27,4 +27,4 @@ def render_content(tab):
     elif tab == 'tab-explain': return explain.layout
 
 if __name__ == '__main__':
-    app.run_server(debug=True)C
+    app.run_server(debug=True)
