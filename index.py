@@ -5,6 +5,8 @@ import dash_html_components as html
 from app import app
 from tabs import intro, predict, explain
 
+server = app.server
+
 style = {'maxWidth': '960px', 'margin': 'auto'}
 
 app.title = 'On Base Predictor'
@@ -28,3 +30,4 @@ def render_content(tab):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
