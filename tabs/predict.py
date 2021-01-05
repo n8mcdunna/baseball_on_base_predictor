@@ -8,18 +8,6 @@ import pandas as pd
 
 from app import app
 
-loan_purposes = ['Business',
-                 'Car financing',
-                 'Credit card refinancing',
-                 'Debt consolidation',
-                 'Green loan',
-                 'Home buying',
-                 'Home improvement',
-                 'Major purchase',
-                 'Medical expenses',
-                 'Moving and relocation',
-                 'Other',
-                 'Vacation']
 batters = ['Manny Machado', 'Paul Goldschmidt', 'Nick Markakis',
        'Charlie Blackmon', 'Brian Dozier', 'Anthony Rizzo', 'Mookie Betts',
        'Carlos Santana', 'Joey Votto', 'Nolan Arenado', 'Andrew McCutchen',
